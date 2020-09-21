@@ -9,5 +9,5 @@ Feel free to email me with any questions:
 
 **Fred Lackey**  
 **[http://fredlackey.com](http://www.fredlackey.com)**  
-**[mailto:fred.lackey@gmail.com](fred.lackey@gmail.com)**  
+**[fred.lackey@gmail.com](mailto:fred.lackey@gmail.com)**  
 
