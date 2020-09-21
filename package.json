@@ -1,0 +1,32 @@
+{
+  "name": "my-project",
+  "version": "0.0.1",
+  "description": "My Project",
+  "main": "src/server.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix src/**/*.js",
+    "start": "node ./src/server.js",
+    "dev:legacy": "nodemon --legacy-watch",
+    "dev": "nodemon --trace-deprecation",
+    "build": "./scripts/dev/build.sh",
+    "push": "./scripts/dev/push.sh"
+  },
+  "author": "Fred Lackey <fred.lackey@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cleaner-node": "^0.11.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-standard": "^4.0.1",
+  }
+}
